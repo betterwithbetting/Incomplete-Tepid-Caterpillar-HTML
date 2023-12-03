@@ -194,34 +194,11 @@
   color: #3d6e70ff;
 }
 .home-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-}
-.home-login {
-  border-color: var(--dl-color-primary1-blue100);
-  border-width: 1px;
-  margin-right: var(--dl-space-space-twounits);
-  padding-left: 1.5rem;
-  border-radius: 45px;
-  padding-right: 1.5rem;
-}
-.home-register {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  font-weight: bold;
-  border-color: var(--dl-color-primary1-blue100);
-  padding-left: 1.5rem;
-  border-radius: 45px;
-  padding-right: 1.5rem;
-  background-color: var(--dl-color-primary1-blue100);
-}
-.home-register:hover {
-  border-color: rgba(41, 20, 119, 0.9);
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  background-color: rgba(41, 20, 119, 0.9);
 }
 .home-burger-menu {
   display: none;
@@ -306,7 +283,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-login1 {
+.home-login {
   border-color: var(--dl-color-primary1-blue100);
   border-width: 1px;
   margin-right: var(--dl-space-space-twounits);
@@ -314,7 +291,7 @@
   border-radius: 30px;
   padding-right: 1.5rem;
 }
-.home-register1 {
+.home-register {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
   border-color: var(--dl-color-primary1-blue100);
@@ -324,7 +301,7 @@
   padding-right: 1.5rem;
   background-color: var(--dl-color-primary1-blue100);
 }
-.home-register1:hover {
+.home-register:hover {
   border-color: #849492ff;
   background-color: #849492ff;
 }
@@ -390,25 +367,6 @@
   align-items: center;
   flex-direction: row;
 }
-.home-hero-button1 {
-  color: var(--dl-color-gray-white);
-  font-size: 18px;
-  transition: 0.3s;
-  font-weight: bold;
-  padding-top: 1.5rem;
-  border-color: var(--dl-color-primary1-blue100);
-  border-width: 0px;
-  padding-left: 3rem;
-  border-radius: 45px;
-  padding-right: 3rem;
-  padding-bottom: 1.5rem;
-  background-color: var(--dl-color-primary1-blue100);
-}
-.home-hero-button1:hover {
-  color: var(--dl-color-gray-white);
-  border-color: rgba(41, 20, 119, 0.9);
-  background-color: rgba(41, 20, 119, 0.9);
-}
 .home-hero-button2 {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
@@ -418,6 +376,7 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: transparent;
 }
 .home-hero-button2:hover {
